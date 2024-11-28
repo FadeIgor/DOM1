@@ -25,8 +25,13 @@ HTMLCollection(2) - [img#car, img, car: img#car]
 HTMLCollection - jest to obiekt tablico podobny, ma dlugosc do jego elementow mozna dostac sie za pomoca notacji tablicy, problemem jest to ze ma mniej metod niz tablica
 
 2. dwie metody zrobienia tablcy z podanych elementow, ktore sa obiektem tablicopodobnym
+
+A.
 na obiekcie ponizej wykonuje metode from() ktora informuje zrob tablice z tego co */
 const imgs = Array.from(document.images)
+
+//B ... operator rest, []
+const imgs1 = [...document.write]
 
 /*
 II. ------------------Modyfikowanie elementow na stronie internetowej------------------
